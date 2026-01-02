@@ -2,7 +2,6 @@ from flask import Flask, redirect, url_for
 
 #create instance of flask web app
 app = Flask(__name__)
-
 #define home page, path of the func in web:wq!
 @app.route("/")
 def home():
